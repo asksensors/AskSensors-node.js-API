@@ -1,5 +1,5 @@
 # node.js
-Automated data sending to asksensors using node JS
+Automated data sending to asksensors using Node.js and HTTPS Get Requests.
 
 - Get started with AskSensors: https://asksensors.com
 
