@@ -1,6 +1,6 @@
 /*
  * Automated data sending using https
- * Description: This example code sends dummy data to askSensors IoT platfom over HTTPS GET Request.
+ * Description: This example code sends dummy data to askSensors IoT platfom (https://asksensors.com) over HTTPS GET Requests.
  *  Author: https://asksensors.com, 2018
  *  github: https://github.com/asksensors
  * Instructables: 
