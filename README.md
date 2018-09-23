@@ -1,8 +1,14 @@
-# node.js
-Automated data sending to asksensors using Node.js and HTTPS Get Requests.
+# AskSensors node.js API
+Send Data to AskSensors using node.js
 
-- Get started with AskSensors: https://asksensors.com
+Requirements:
+-
+- Create AskSensors account: https://asksensors.com
+- Install node.js: https://nodejs.org/en/download/
+- Install HTTPS npm package: https://www.npmjs.com/package/https
 
-- Instructable: https://www.instructables.com/id/Automated-Data-Sending-to-AskSensors-Using-Node-JS/
+Step-by-Step tutorials:
+- 
+- Send Data over HTTPS: https://www.instructables.com/id/Automated-Data-Sending-to-AskSensors-Using-Node-JS/
 
 
