@@ -3,7 +3,6 @@
  * Description: This example code sends dummy data to askSensors IoT platfom (https://asksensors.com) over HTTPS GET Requests.
  *  Author: https://asksensors.com, 2018
  *  github: https://github.com/asksensors
- * Instructables: 
  */
 
 // includes
