@@ -10,7 +10,7 @@ var https = require('https');
 const request = require('request');
 // Configuration
 var host = 'https://asksensors.com';		// server host
-var ApiKeyIn = 'MTWN7AQOLWJNEIF8RGMAW5EGKQFAHN2K'; // Api Key In
+var ApiKeyIn = '...................'; // TODO: fill your sensor Api Key In given by https://asksensors.com
 var module1 = 0;				// module 
 var timerInterval = 20000;		// timer interval
 // Function declaration: send data
@@ -18,7 +18,7 @@ function send_data(){
 	var url = host + '/api.asksensors/write/';	
 		url+= ApiKeyIn;
 		url+= '?module1='
-		url+= module1++;
+		url+= 100*Math.random();//module1++;
 	console.log('Data sent to:' + url);
 	request(url, { json: true }, (err, res, body) => {
 	  if (err) { return console.log(err); }
