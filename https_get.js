@@ -8,10 +8,13 @@
 // includes
 var https = require('https');
 const request = require('request');
-// Configuration
-var host = 'https://api.asksensors.com';		// server host
+
+// TODO: AskSensors Configuration
 var ApiKeyIn = '...................'; // TODO: fill your sensor Api Key In given by https://asksensors.com
-var timerInterval = 20000;	// TODO: adjust timerInterval (in ms)
+var writeInterval = 25000;	// TODO: adjust timerInterval (in ms)
+// API host name
+var host = 'https://api.asksensors.com';
+
 // Function declaration: send data
 function send_data(){
 	var url = host + '/write/';	
@@ -28,4 +31,4 @@ function send_data(){
 }
 send_data();// send first data
 // Send data every timerInterval
-setInterval(send_data, timerInterval);		// setInterval 
+setInterval(send_data, writeInterval);		// setInterval 
