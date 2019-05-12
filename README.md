@@ -1,6 +1,10 @@
 # AskSensors node.js API
 Send Data to AskSensors using node.js
 
+Documentation:
+-
+- https://asksensors.com/doc/Documentation.html
+
 Requirements:
 -
 - Create AskSensors account: https://asksensors.com
